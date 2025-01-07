@@ -1,4 +1,4 @@
-# General Database Knowledge
+<img width="1271" alt="image" src="https://github.com/user-attachments/assets/6dda81f0-288d-43ea-a78b-90c41c91a20e" /># General Database Knowledge
 
 # Database 
 - a database is an ```organized``` collection of ```related_```information
@@ -19,8 +19,17 @@ System
 
 
 # Type of databases
-- relational - it works as a table
-- non-relational
+- relational ```SQL```
+   - it works as a table
+   - predefined Schema
+   - scales vertically - it has a limit, but it is very fast
+- non-relational ```NoSQL```
+   - it works as a Dictionary objects
+   - dynamich schema
+   - hirarchial data storage
+   - scales horizontaly - we add new servers, but is slower
+
+     
   
   <img width="1120" alt="image" src="https://github.com/user-attachments/assets/021be3e5-0b36-4c9a-9f1f-da288104653e" />
 

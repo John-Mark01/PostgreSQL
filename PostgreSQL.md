@@ -57,6 +57,19 @@
     - CHARACTER/CHAR[(M)] - fixed lenght --> CHAR(30) it save memory for 30 chars
     - VARCHAR[(N)] - it can hold up to N, but the memory will be updated for the chars used
     - TEXT - stores strings of ANY lenght
+  * DATES
+     - DATE - holds date without time
+     - TIME - only time, no date
+     - TIMESTAMP - both date and time
+     - TIMESTAMPTZ - date, time and time zone
+
+   ### Column Constraints
+    * ```UNIQUE``` - not repeatable. It cannot be two records with the same property value
+    * ```DEFAULT``` - we give a default value, which will be generated on every entity, upon creation
+    * ```NOT NULL``` - needs to be a value, cannot be empty
+    * ```PRIMARY KEY``` - unique identificator of a record
+    * ```SERIAL PRIMARY KEY``` - automatically increment the primary key
+    * ```CHECK``` - a if statement for adding a value ```CHECK(age > 18)```
   
   ### SQL Queries
   - the way we communicate with the database

@@ -8,6 +8,7 @@ Data
 Base
 Management
 System
+- a database is a ```server```
 
 <img width="1645" alt="image" src="https://github.com/user-attachments/assets/ee7b59a9-2751-4462-bfb8-295261098668" />
 
@@ -48,3 +49,4 @@ System
   * Designed to be extesible
   * ```Can define custom data types, plugins, functions, etc..```
   * Active community
+    

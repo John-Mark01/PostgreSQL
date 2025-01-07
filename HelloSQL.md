@@ -47,3 +47,4 @@ System
     It can make a lot of requests at the same time, without lagging.
   * Designed to be extesible
   * ```Can define custom data types, plugins, functions, etc..```
+  * Active community

@@ -26,8 +26,18 @@
   - Expressions
   - Predicates
   - Statements
- 
+
    <img width="1271" alt="image" src="https://github.com/user-attachments/assets/368fa365-a159-40bc-bc59-a9eb24e97beb" />
+
+
+
+  ### SQL Logical Devision
+  <img width="1582" alt="image" src="https://github.com/user-attachments/assets/00b2e0d1-c6db-4dcf-b5b9-76935fe09605" />
+  
+   * DDL - manipulates the ```TABLE```
+   * DML - manimuplates the ```DATA``` in a table
+   * DCL - manipulates how the data is used, or ```POLICIES```
+   * TCL - manipulates all transactions, (git)
 
   ### SQL Queries
   - the way we communicate with the database

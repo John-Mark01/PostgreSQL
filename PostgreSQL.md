@@ -1,4 +1,10 @@
-# 
+## Conventions 
+  - ```all tables are named as a plural (users, employees)```
+  - ```SQL keywords are CAPITALIZED```
+  - ```every naming is in snake_case```
+  - ```every statement ends in ;```
+  - statements are written as follows ```property name``` -> ```data type``` -> ```constraints``` :: ``` id SERIAL NOT NULL PRIMERY KEY```
+  
 
 ### Schema 
 - is namespace for containing a collection of files and directories
@@ -8,6 +14,7 @@
 - a name
 - has columns - DataType
 - has rows - Entities
+  
 
 # SQL - Structured Query Language
 - imperative (we say what we want, but we dont give instructions on the implementation) programming language
@@ -24,13 +31,6 @@
 
    <img width="1271" alt="image" src="https://github.com/user-attachments/assets/368fa365-a159-40bc-bc59-a9eb24e97beb" />
 
-## Conventions 
-  - ```all tables are named as a plural (users, employees)```
-  - ```SQL keywords are CAPITALIZED```
-  - ```every naming is in snake_case```
-  - ```every statement ends in ;```
-  - statements are written as follows ```property name``` -> ```data type``` -> ```constraints``` :: ``` id SERIAL NOT NULL PRIMERY KEY```
-  
 
   ### SQL Logical Devision
   <img width="1582" alt="image" src="https://github.com/user-attachments/assets/00b2e0d1-c6db-4dcf-b5b9-76935fe09605" />

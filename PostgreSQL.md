@@ -29,6 +29,8 @@
   - ```SQL keywords are CAPITALIZED```
   - ```every naming is in snake_case```
   - ```every statement ends in ;```
+  - statements are written as follows ```property name``` -> ```data type``` -> ```constraints``` :: ``` id SERIAL NOT NULL PRIMERY KEY```
+  
 
   ### SQL Logical Devision
   <img width="1582" alt="image" src="https://github.com/user-attachments/assets/00b2e0d1-c6db-4dcf-b5b9-76935fe09605" />

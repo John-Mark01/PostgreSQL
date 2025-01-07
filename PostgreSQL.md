@@ -9,12 +9,7 @@
 - has columns - DataType
 - has rows - Entities
 
-## Conventions 
-- ```all tables are named as a plural (users, employees)```
-- ```SQL keywords are CAPITALIZED```
-- ```every naming is in snake_case```
-
-## SQL - Structured Query Language
+# SQL - Structured Query Language
 - imperative (we say what we want, but we dont give instructions on the implementation) programming language
 - Access ```many records``` with ```one single command```
 - ```Eliminates``` the need to specify how to reach a record (_imperative_)
@@ -29,7 +24,11 @@
 
    <img width="1271" alt="image" src="https://github.com/user-attachments/assets/368fa365-a159-40bc-bc59-a9eb24e97beb" />
 
-
+## Conventions 
+  - ```all tables are named as a plural (users, employees)```
+  - ```SQL keywords are CAPITALIZED```
+  - ```every naming is in snake_case```
+  - ```every statement ends in ;```
 
   ### SQL Logical Devision
   <img width="1582" alt="image" src="https://github.com/user-attachments/assets/00b2e0d1-c6db-4dcf-b5b9-76935fe09605" />
@@ -71,7 +70,22 @@
     * ```SERIAL PRIMARY KEY``` - automatically increment the primary key
     * ```CHECK``` - a if statement for adding a value ```CHECK(age > 18)```
   
-  ### SQL Queries
+  # SQL Queries
   - the way we communicate with the database
   - they provide greater ```control``` and ```flexibility```
-  - ```CREATE DATABASE gamebar;``` database creation.
+    
+  ### Create Table
+<img width="864" alt="image" src="https://github.com/user-attachments/assets/8bb43e39-20dc-46a2-b42d-ed3e20e620b0" />
+
+
+  ### Change Table - ALTER
+<img width="260" alt="image" src="https://github.com/user-attachments/assets/ca077e03-3300-4185-983b-da9de6d8a456" />
+<img width="1208" alt="image" src="https://github.com/user-attachments/assets/0d8608ab-4a79-4b76-965a-1bfa842657fc" />
+
+### TRUNCATE - deletes all records from the table. The table still exists
+### DROP - deletes the table
+
+
+
+ 
+    

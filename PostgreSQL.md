@@ -39,6 +39,25 @@
    * DCL - manipulates how the data is used, or ```POLICIES```
    * TCL - manipulates all transactions, (git)
 
+  ### PostgreSQL Data Types
+  we give explicit datatypes because of optimization
+  * INTEGER
+    - SMALLINT - 16 bit
+    - INTEGER - 32 bit
+    - BIGINT - 64 bit
+   
+  * Double/Floats
+    - DECIMAL, NUMERIC - percision (recomended)
+    - REAL, DOUBLE
+
+  * SERIAL
+    - SMALLSERIAL, SERIAL, BIGSERIAL - used for column identification
+   
+  * STRINGS
+    - CHARACTER/CHAR[(M)] - fixed lenght --> CHAR(30) it save memory for 30 chars
+    - VARCHAR[(N)] - it can hold up to N, but the memory will be updated for the chars used
+    - TEXT - stores strings of ANY lenght
+  
   ### SQL Queries
   - the way we communicate with the database
   - they provide greater ```control``` and ```flexibility```

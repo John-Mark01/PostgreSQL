@@ -217,3 +217,7 @@ WHERE department = 'Development' -- ABSOLUTELY NECESARY!
 
 ```
 
+#### ```TRUNCATE```
+-  will delete all records from a table, whithout deleting the table itself.
+``` TRUNCATE TABLE table_name;```
+

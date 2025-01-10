@@ -92,6 +92,24 @@ D - Delete
         WHERE (department = 'Development' AND department = 'Sales')
  ```
 
+#### ```BETWEEN```
+- we give integers as limits and will return every record in between the limits
+
+``` WHERE salary BETWEEN 5000 AND 7000;```
+
+#### ```IN, NOT IN```
+-  will return records that return YES(true) to the parameter
+-  if the record is ```IN```
+
+```
+        SELECT
+            first_name,
+            last_name,
+            gender
+        FROM employees
+        WHERE department IN('Development)
+        ORDER BY department
+ ```
 
 #### Alias's - Transforms the name of the columns and tables with ```""```
 

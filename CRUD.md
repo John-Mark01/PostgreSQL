@@ -191,5 +191,17 @@ WHERE department = 'Development' -- ABSOLUTELY NECESARY!
 
 ```
 
+#### ```Multiple UPDATE```
 
+```
+UPDATE table_name
+SET salary = salary * 1.3
+WHERE department = 'Development' AND department = 'Backend'
+;
+
+```
+
+
+# ```4. DELETE``` 
+- it is the way we delete data from our database
 

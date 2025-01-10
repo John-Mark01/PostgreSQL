@@ -21,14 +21,71 @@ D - Delete
 #### Concatenation
   - we can concatenate two columns with ```concat()``` function - ```concat(first_name, ' ', last_Name) AS "Full Name";```
 
+#### Get records with a limit (n)
+- whatever we specify as ```n``` only ```n number``` of records will be returned
+- 
+ ```
+        SELECT
+            *
+        FROM table_name LIMIT 10
+  ```
+### Sorting 
+- we get columns
+- we can sort a result, with the keywords ```ORDER BY column_name ASC```
+  - accending - ```ASC```
+  - descending - ```DESC```
+  - by default the order is ```ASK```
+
+```
+        SELECT
+            *
+        FROM table_name
+        ORDER BY first_name
+        LIMIT 10
+  ```
+
+### Filtering 
+
+#### ```DISTINCT```
+- we get records
+- we can filter all records, by removing all repeating records with - ```DISTINCT```
+  
+```
+        SELECT
+            DISTINCT department
+        FROM employees
+        ORDER BY department
+  ```
+
+#### ```DISTINCT ON```
+- if will filter repeating records only on the specified column.
+- will return the records ordered by the column, specified.
+  
+```
+        SELECT
+            DISTINCT ON (first_name), department
+        FROM employees
+ ```
+
+#### ```WHERE```
+- will filter a column by a condition - ``` WHERE column_name = condition```
+- the condition can be with any operator ```<, <=, >, >=, =```
+
+```
+        SELECT
+           department
+        FROM employees
+        WHERE department = 'Development'
+ ```
+
 #### Alias's - Transforms the name of the columns and tables with ```""```
 
     ```
         SELECT
-        column_name1 AS "FirstName", 
-        column_name2 AS "LastName
+            column_name1 AS "FirstName", 
+            column_name2 AS "LastName
         FROM table_name AS newName
     ```
-  - we can change the refference name of a table or column in a Query. This change will not affect the table itself!
     
+  - we can change the refference name of a table or column in a Query. This change will not affect the table itself!
 

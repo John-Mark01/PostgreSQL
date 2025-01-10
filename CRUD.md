@@ -69,7 +69,7 @@ D - Delete
 
 #### ```WHERE```
 - will filter a column by a condition - ``` WHERE column_name = condition```
-- the condition can be with any operator ```<, <=, >, >=, =```
+- the condition can be with any operator ```<, <=, >, >=, =, !=```
 
 ```
         SELECT
@@ -77,6 +77,21 @@ D - Delete
         FROM employees
         WHERE department = 'Development'
  ```
+
+#### ```Logical Operators```
+- we filter records by more advanced conditions
+- we can use ```AND(&&), OR(||), NOT(!)
+- works like an if statement - ```WHERE (record from column_name = 'Development' AND ... = 'Sales')```
+
+```
+        SELECT
+            first_name,
+            last_name,
+            gender
+        FROM employees
+        WHERE (department = 'Development' AND department = 'Sales')
+ ```
+
 
 #### Alias's - Transforms the name of the columns and tables with ```""```
 

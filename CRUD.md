@@ -8,7 +8,7 @@ U - update
 
 D - Delete
 
-### ```1. SELECT``` 
+# ```1. SELECT``` 
 
 - in postgreSQL ```SELECT``` is the way we ```read``` data.
 - ```*``` (asterix) is the wild card. It represents every record.
@@ -21,6 +21,18 @@ D - Delete
 #### Concatenation
   - we can concatenate two columns with ```concat()``` function - ```concat(first_name, ' ', last_Name) AS "Full Name";```
 
+
+#### Alias's - Transforms the name of the columns and tables with ```""```
+
+    ```
+        SELECT
+            column_name1 AS "FirstName", 
+            column_name2 AS "LastName
+        FROM table_name AS newName
+    ```
+    
+  - we can change the refference name of a table or column in a Query. This change will not affect the table itself!
+
 #### Get records with a limit (n)
 - whatever we specify as ```n``` only ```n number``` of records will be returned
 - 
@@ -29,7 +41,7 @@ D - Delete
             *
         FROM table_name LIMIT 10
   ```
-### Sorting 
+## Sorting 
 - we get columns
 - we can sort a result, with the keywords ```ORDER BY column_name ASC```
   - accending - ```ASC```
@@ -44,7 +56,7 @@ D - Delete
         LIMIT 10
   ```
 
-### Filtering 
+## Filtering 
 
 #### ```DISTINCT```
 - we get records
@@ -68,6 +80,8 @@ D - Delete
  ```
 
 #### ```WHERE```
+
+##### ```Comparison Operators```
 - will filter a column by a condition - ``` WHERE column_name = condition```
 - the condition can be with any operator ```<, <=, >, >=, =, !=```
 
@@ -78,7 +92,7 @@ D - Delete
         WHERE department = 'Development'
  ```
 
-#### ```Logical Operators```
+##### ```Logical Operators```
 - we filter records by more advanced conditions
 - we can use ```AND(&&), OR(||), NOT(!)
 - works like an if statement - ```WHERE (record from column_name = 'Development' AND ... = 'Sales')```
@@ -110,15 +124,4 @@ D - Delete
         WHERE department IN('Development)
         ORDER BY department
  ```
-
-#### Alias's - Transforms the name of the columns and tables with ```""```
-
-    ```
-        SELECT
-            column_name1 AS "FirstName", 
-            column_name2 AS "LastName
-        FROM table_name AS newName
-    ```
-    
-  - we can change the refference name of a table or column in a Query. This change will not affect the table itself!
 

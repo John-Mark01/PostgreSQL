@@ -125,6 +125,19 @@ D - Delete
         ORDER BY department
  ```
 
+#### ```Create a new table from existing records```
+- will create a new table with the values specified, from another table
+
+```
+CREATE TABLE table_name AS
+SELECT (
+        id,
+        first_name,
+        last_name
+)
+FROM other_table_name;
+
+```
 
 
 # ```2. INSERT``` 
@@ -135,6 +148,7 @@ D - Delete
 ```
 INSERT INTO table_name
 VALUES('value', 'value');
+
 ```
 
 - we can add parameters. The value set, and parameters given needs to be in same order.
@@ -145,9 +159,11 @@ VALUES(
     'John',
     'McDonald'
 );
+
 ```
 
-- we can also BULK INSERT data, or add more than one record to a table
+#### ```BULK INSERT```
+- we can also insert more than one record to a table
 
 ```
 INSERT INTO table_name(first_name, last_name)
@@ -156,10 +172,8 @@ VALUES
 ('Mark', 'Commer')      -- new record
 ('Steven', 'Hewbert')   -- new record
 ;
+
 ```
-
-
-
 
 
 

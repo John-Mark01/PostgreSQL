@@ -1,4 +1,4 @@
-# Basic CRUD in PostgreSQl
+# Basic CRUD in PostgreSQL
 
 C - create
 
@@ -145,6 +145,17 @@ VALUES(
     'John',
     'McDonald'
 );
+```
+
+- we can also BULK INSERT data, or add more than one record to a table
+
+```
+INSERT INTO table_name(first_name, last_name)
+VALUES
+('John', 'McDonald')    -- new record
+('Mark', 'Commer')      -- new record
+('Steven', 'Hewbert')   -- new record
+;
 ```
 
 

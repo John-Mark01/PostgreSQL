@@ -125,3 +125,34 @@ D - Delete
         ORDER BY department
  ```
 
+
+
+# ```2. INSERT``` 
+- it is the way we add data into our database
+- we say ```INSERT``` followed by ```INTO```, and then where we are inserting.
+- if we don't specify columns, we need to insert a whole record, which is all columns.
+
+```
+INSERT INTO table_name
+VALUES('value', 'value');
+```
+
+- we can add parameters. The value set, and parameters given needs to be in same order.
+
+```
+INSERT INTO table_name(first_name, last_name)
+VALUES(
+    'John',
+    'McDonald'
+);
+```
+
+
+
+
+
+
+
+
+
+

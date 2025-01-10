@@ -176,8 +176,20 @@ VALUES
 ```
 
 
+# ```3. UPDATE``` 
+- it is the way we update the data in our database
+- we say ```UPDATE``` followed by a table_name, and then ```SET```, and then where we are inserting.
+  
+* when we make updates we always add the ```WHERE``` clause. *
+if we don't add a ```WHERE``` clause, _ALL RECORDS_ will update!
 
+```
+UPDATE table_name
+SET salary = 100
+WHERE department = 'Development'
+;
 
+```
 
 
 

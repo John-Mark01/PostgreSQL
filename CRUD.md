@@ -204,4 +204,16 @@ WHERE department = 'Development' AND department = 'Backend'
 
 # ```4. DELETE``` 
 - it is the way we delete data from our database
+- we say ```DELETE``` followed by ```FROM```, then a table_name.
+- we can always add a logical operator to advnace the query.
+  
+#### when we delete we always add the ```WHERE``` clause.
+- if we don't add a ```WHERE``` clause, _ALL RECORDS_ will be deleted!
+  
+```
+DELETE FROM table_name
+WHERE department = 'Development' -- ABSOLUTELY NECESARY!
+;
+
+```
 

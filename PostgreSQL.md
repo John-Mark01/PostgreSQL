@@ -4,6 +4,7 @@
   - ```every naming is in snake_case```
   - ```every statement ends in ;```
   - statements are written as follows ```property name``` -> ```data type``` -> ```constraints``` :: ``` id SERIAL NOT NULL PRIMERY KEY```
+  - ```every query is written in multiple lines, not a single one```
   
 
 ### Schema 

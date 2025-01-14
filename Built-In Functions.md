@@ -158,11 +158,16 @@
 
 
 ## Date / Time Functions 
-  - compute a length of a date 
+  - compute a length of a date(TIMESTAMP)
 
+#### ```EXTRACT -- SQL Standart```
+#### ```DATE_PART -- Postgre syntax```
+  - return a part of a date
+  - we can extract: MONTH, DAY, YEAR, TIME
 
+<img width="1246" alt="image" src="https://github.com/user-attachments/assets/7a790fad-2730-4b76-a166-67ceb89fb3d5" />
 
-
+  - part is MONTH, DAY, YEAR, HOUR, MINUTE, SECOND, etc.
 
 
 ## Wildcards

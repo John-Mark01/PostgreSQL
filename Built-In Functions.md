@@ -75,49 +75,49 @@
   - removes the whitespaces from both sides if no parameters passed
   - if the is a paramter, it trims occuring paramter in the string (both sides)
 
-  ```TRIM('    Hello    ') ———> 'Hello')```
+    ```TRIM('    Hello    ') ———> 'Hello')```
 
-  ```TRIM('*******Hello****', '*') ———> 'Hello')```
+    ```TRIM('*******Hello****', '*') ———> 'Hello')```
 
   - we can also remove chars from a ceratin side
     
-  ```LTRIM('*******Hello****', '*') ———> 'Hello****')```
+    ```LTRIM('*******Hello****', '*') ———> 'Hello****')```
 
-  ```RTRIM('*******Hello****', '*') ———> '******Hello')```
+    ```RTRIM('*******Hello****', '*') ———> '******Hello')```
 
 ### ```LOWER / UPPER```
   - makes a string UPPERCASED, or LOWERCASED
 
-  ```UPPEER(params)```
-
-  ```LOWER(params)```
+    ```UPPEER(params)```
+  
+    ```LOWER(params)```
 
 <img width="447" alt="image" src="https://github.com/user-attachments/assets/910e4045-5f9d-4a3a-9deb-52412d447d86" />
 
 
 ### ```REVERSE```
   - reverses a string
-    
-  ```REVERSE('bobi') ———> 'ibob'```
+      
+    ```REVERSE('bobi') ———> 'ibob'```
 
 ### ```REPEAT```
   - repeats a string
     
-  ```REPEAT('bobi', 10) ———> 'bobi' x10 times```
+    ```REPEAT('bobi', 10) ———> 'bobi' x10 times```
 
 ### ```LENGTH / CHAR_LENGTH / BIT_LENGTH```
   - returns the count of a string
-
-  ```LENGTH('bobi') ———> 4 ``` 
-
-  ```CHAR_LENGTH('bobi') ———> 4 ```
-
-  ```BIT_LENGTH('bobi') ———> 32 ``` = the sum of the chars bites in the string
+  
+    ```LENGTH('bobi') ———> 4 ``` 
+  
+    ```CHAR_LENGTH('bobi') ———> 4 ```
+  
+    ```BIT_LENGTH('bobi') ———> 32 ``` = the sum of the chars bites in the string
 
 ### ```POSITION```
   - return on which position you have found a pattern
     
-  ```POSITION('bobi' IN 'hello bobi') ———> 7 ```
+    ```POSITION('bobi' IN 'hello bobi') ———> 7 ```
 
 
 

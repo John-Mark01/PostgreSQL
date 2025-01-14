@@ -43,9 +43,12 @@
 
  <img width="490" alt="image" src="https://github.com/user-attachments/assets/9c9d04f9-6272-4cc2-b420-c04fcd58a2ab" />
 
-  - SUBSTRING can be also used with REGEXes
+ - SUBSTRING can be also used with REGEXes
+ - alternative approaach:
 
-    
+<img width="1523" alt="image" src="https://github.com/user-attachments/assets/652eb2ee-d2da-4623-8b9c-1ddd1865cc35" />
+
+
 ## Math Functions
   - caluclations, working with aggregate data 
 

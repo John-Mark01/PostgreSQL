@@ -49,6 +49,16 @@
 <img width="1523" alt="image" src="https://github.com/user-attachments/assets/652eb2ee-d2da-4623-8b9c-1ddd1865cc35" />
 
 
+### ```LEFT, RIGHT```
+  - works like a substring but can return a string from LEFT side, as well as RIGHT side
+  - takes a string and a an integer:
+    - the string that we will supstring
+    - the integer will say how many indexes forward *(can be a negative number)*
+
+  ```LEFT('Hello', 2) ——> 'He'```
+  
+  ```RIGHT('Hello', 2) ——> 'lo'```
+
 ## Math Functions
   - caluclations, working with aggregate data 
 

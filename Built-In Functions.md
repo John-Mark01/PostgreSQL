@@ -71,8 +71,28 @@
 <img width="498" alt="image" src="https://github.com/user-attachments/assets/05a6125d-782d-4556-9695-1c6269cba538" />
 
 
+### ```TRIM```
+  - removes the whitespaces from both sides if no parameters passed
+  - if the is a paramter, it trims occuring paramter in the string (both sides)
 
+  ```TRIM('    Hello    ') ———> 'Hello')```
 
+  ```TRIM('*******Hello****', '*') ———> 'Hello')```
+
+  - we can also remove chars from a ceratin side
+    
+  ```LTRIM('*******Hello****', '*') ———> 'Hello****')```
+
+  ```RTRIM('*******Hello****', '*') ———> '******Hello')```
+
+### ```LOWER / UPPER```
+  - makes a string UPPERCASED, or LOWERCASED
+
+```UPPEER(params)```
+
+```LOWER(params)```
+
+<img width="447" alt="image" src="https://github.com/user-attachments/assets/910e4045-5f9d-4a3a-9deb-52412d447d86" />
 
 
 ## Math Functions

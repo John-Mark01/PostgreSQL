@@ -57,7 +57,18 @@
 
   ```LEFT('Hello', 2) ——> 'He'```
   
-  ```RIGHT('Hello', 2) ——> 'lo'```
+  ```RIGHT('Hello', 3) ——> 'llo'```
+
+### ```REPLACE```
+  - performs a case sensitive search
+  - takes 3 strings
+  - the flow goes like - if 2nd paramater is found in 1st parameter, it will be replaced with the 3rd parameter
+
+<img width="1419" alt="image" src="https://github.com/user-attachments/assets/6268bbe4-0af4-48de-b3e1-d3cd9fc3ce22" />
+
+  - does not change the database when used in SELECT, but can be used with UPDATE as well.
+    
+<img width="498" alt="image" src="https://github.com/user-attachments/assets/05a6125d-782d-4556-9695-1c6269cba538" />
 
 ## Math Functions
   - caluclations, working with aggregate data 

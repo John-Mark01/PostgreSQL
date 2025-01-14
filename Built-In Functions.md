@@ -198,10 +198,25 @@
 
     
 
-
-
 ## Wildcards
+  - speacial symbols used in the WHERE clauses.
+  - it's purpouse is to have a specific conditions
+  - works almost like REGEXes
+  - they are used as a string - ```''```
+
+  ###```LIKE```
+    - the way we use wild cards
+
+  ###```ESCAPE```
+    - we add this at the end of the WHERE clause, specifying which char we want to be escaped
+
+ ####```%```
+   - represents zero, one, or multiple chars
+   ```WHERE first_name LIKE 'S%';``` ---> will return all first names that start with a capital S
+   ```WHERE last_name LIKE 'B%a';``` ---> will return all last names that start with a capital S, and end with an a
 
 
+ ####```_```
+   - represents a single chars
 
 

@@ -141,10 +141,20 @@
 <img width="905" alt="image" src="https://github.com/user-attachments/assets/c579db1a-40ea-45ad-9112-c58115f9f663" />
 
 
+#### ```ROUND```
+  - rounds a decimal number
+  - we can add a parameter, to say to which decimal number we want round the number
+    - the parameter are how many 0's from the decimal point we want to round
+
+```ROUND(33.62, 2) ——> 33,70 ```
+
+<img width="973" alt="image" src="https://github.com/user-attachments/assets/68e9d98f-ce53-4418-8118-c242c6135d39" />
 
 
+#### ```TRUNC```
+  - removes a number's
 
-
+<img width="699" alt="image" src="https://github.com/user-attachments/assets/5c9cf21a-29d0-46a0-9b02-56fbe8d04b18" />
 
 
 ## Date / Time Functions 

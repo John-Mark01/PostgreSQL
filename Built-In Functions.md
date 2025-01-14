@@ -121,8 +121,17 @@
 
 
 
+
+
 ## Math Functions
   - caluclations, working with aggregate data 
+  - supports basic arithmetic operators 
+
+<img width="1088" alt="image" src="https://github.com/user-attachments/assets/2462bae1-1aef-47bd-9c2a-ac99a180cc89" />
+
+
+
+
 
 
 

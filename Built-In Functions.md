@@ -169,6 +169,25 @@
 
   - part is MONTH, DAY, YEAR, HOUR, MINUTE, SECOND, etc.
 
+#### ```AGE```
+  - find the difference between two dates
+  - it will return a timestamp of the difference between two dates
+  - furthermore we can only extract different parts of the result - ```EXTRACT(HOURS FROM AGE(date1, date2));```
+    
+<img width="1272" alt="image" src="https://github.com/user-attachments/assets/469d5cdd-dd14-4992-a9fe-9e2590579564" />
+
+
+#### ```BOUNS```
+  - ```INTERVAL```, takes a string
+  - add more time in a timestamp
+
+<img width="490" alt="image" src="https://github.com/user-attachments/assets/4a1967e1-41c4-469c-adc2-a49674ba8a50" />
+
+  - ```EPOCH FORM TIMESTAMP```, it returns the timestamp in seconds (TimeInterval in Swift)
+
+    
+
+
 
 ## Wildcards
 

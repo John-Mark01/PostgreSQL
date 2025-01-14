@@ -70,10 +70,29 @@
     
 <img width="498" alt="image" src="https://github.com/user-attachments/assets/05a6125d-782d-4556-9695-1c6269cba538" />
 
+
+
+
+
+
 ## Math Functions
   - caluclations, working with aggregate data 
+
+
+
+
+
 
 ## Date / Time Functions 
   - compute a length of a date 
 
+
+
+
+
+
 ## Wildcards
+
+
+
+

@@ -55,9 +55,9 @@
     - the string that we will supstring
     - the integer will say how many indexes forward *(can be a negative number)*
 
-  ```LEFT('Hello', 2) ——> 'He'```
+    ```LEFT('Hello', 2) ——> 'He'```
   
-  ```RIGHT('Hello', 3) ——> 'llo'```
+    ```RIGHT('Hello', 3) ——> 'llo'```
 
 ### ```REPLACE```
   - performs a case sensitive search

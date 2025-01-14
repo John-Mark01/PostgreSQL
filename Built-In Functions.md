@@ -176,6 +176,17 @@
     
 <img width="1272" alt="image" src="https://github.com/user-attachments/assets/469d5cdd-dd14-4992-a9fe-9e2590579564" />
 
+#### ```NOW```
+  - returns a TIMESTAMPTZ of the time of submit.
+    
+#### ```CURRENT_DATE```
+ - returns a DATE (14.12.2025) of the time of submit.
+
+#### ```TO_CHAR```
+ - formats a timestamp to a string, based on a pattern, like - ```dd MMMM yyyy```
+ - the pattern can be also typed as ```day/Day month/Month year/Year```
+
+```TO_CHAR(date1, 'it is yyyy') ———> 'it is 2025'```
 
 #### ```BOUNS```
   - ```INTERVAL```, takes a string

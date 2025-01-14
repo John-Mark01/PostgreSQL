@@ -25,8 +25,19 @@
   - best used when you need to concatenate _multiple_ strings with the same delimeter.
   - first parameter in the params is the delimiter, after that - the column_names.
   - *We can also add strings that are not taken from a column!*
+#### CONCAT_WS skips the null values, where as CONCAT will take null values in the result
 
 <img width="1067" alt="image" src="https://github.com/user-attachments/assets/c3be1729-49e8-4420-87af-f87f507cbc1d" />
+
+
+### ```SUPSTRING``` 
+  - takes a string and two integers as params:
+    - the first int will be index from where we START the subbing
+    - the second in will say how many indexes after we need
+    - the result will be a string starting from the first param, and ends on the second param
+
+
+<img width="1428" alt="image" src="https://github.com/user-attachments/assets/4f1c3b35-3b75-4943-8b9e-b512912f8835" />
 
 
 ## Math Functions

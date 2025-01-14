@@ -88,11 +88,37 @@
 ### ```LOWER / UPPER```
   - makes a string UPPERCASED, or LOWERCASED
 
-```UPPEER(params)```
+  ```UPPEER(params)```
 
-```LOWER(params)```
+  ```LOWER(params)```
 
 <img width="447" alt="image" src="https://github.com/user-attachments/assets/910e4045-5f9d-4a3a-9deb-52412d447d86" />
+
+
+### ```REVERSE```
+  - reverses a string
+    
+  ```REVERSE('bobi') ———> 'ibob'```
+
+### ```REPEAT```
+  - repeats a string
+    
+  ```REPEAT('bobi', 10) ———> 'bobi' x10 times```
+
+### ```LENGTH / CHAR_LENGTH / BIT_LENGTH```
+  - returns the count of a string
+
+  ```LENGTH('bobi') ———> 4 ``` 
+
+  ```CHAR_LENGTH('bobi') ———> 4 ```
+
+  ```BIT_LENGTH('bobi') ———> 32 ``` = the sum of the chars bites in the string
+
+### ```POSITION```
+  - return on which position you have found a pattern
+    
+  ```POSITION('bobi' IN 'hello bobi') ———> 7 ```
+
 
 
 ## Math Functions

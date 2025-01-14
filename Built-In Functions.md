@@ -31,15 +31,21 @@
 
 
 ### ```SUPSTRING``` 
+  - can be used in a WHERE clause
   - takes a string and two integers as params:
     - the first int will be index from where we START the subbing
     - the second in will say how many indexes after we need
     - the result will be a string starting from the first param, and ends on the second param
-
-
+ 
 <img width="1428" alt="image" src="https://github.com/user-attachments/assets/4f1c3b35-3b75-4943-8b9e-b512912f8835" />
 
+ - we can also pass a whole string as a parameter, with no integers, and the result will be eighter NULL, or a string that matches the substring
 
+ <img width="490" alt="image" src="https://github.com/user-attachments/assets/9c9d04f9-6272-4cc2-b420-c04fcd58a2ab" />
+
+  - SUBSTRING can be also used with REGEXes
+
+    
 ## Math Functions
   - caluclations, working with aggregate data 
 

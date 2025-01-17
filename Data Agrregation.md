@@ -5,8 +5,13 @@
 
 
 ## Grouping - ```GROUP BY``` 
+
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/e676cf0c-ab00-4561-9b01-ed1da682e500" />
+
 - allows taking data into ```separate groups``` based on a common property
 - grouping will take all records from a column that we group with, and will return only the ```DISTINCT```(non repeating) records.
+- all records that are repeating, they will be combined, and will be returned as one record.
+- we always group by all columns we SELECT in our Query. If you SELECT first_name, last_name, we need to ```GROUP BY``` those two columns.
 
 **From departments: Development, Support, HR, Development, HR, HR, if we group our query by departments, it will return -> (Development, Support, HR)**
 

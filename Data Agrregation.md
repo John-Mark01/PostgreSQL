@@ -30,10 +30,11 @@
 <img width="1321" alt="image" src="https://github.com/user-attachments/assets/8270da78-33ed-4abf-8e6c-5b220fdb9879" />
 
 
-#### ```COUNT```
+### ```COUNT```
 - takes all combined records from grouping
 ```count(*)``` will count all records from a table. Will return all values that are not NULL.
 - all columns that are NOT aggregated on, must be grouped!
+- count must be placed AT THE END of the SELECT statement, and before 
 
 <img width="327" alt="image" src="https://github.com/user-attachments/assets/63ccc50a-d532-4cd7-b78f-feda5372c575" />
 

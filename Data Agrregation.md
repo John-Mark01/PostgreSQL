@@ -82,3 +82,26 @@
 
 
 ## Conditional Statements
+- works like IF-ELSE statements
+- conditions are called ```cases```
+- we can add a conditional statements to a WHERE clause, Aggragate functions, etc.
+Statement syntax:
+```
+CASE
+   WHEN -> condition -> THEN
+END
+```
+
+<img width="754" alt="image" src="https://github.com/user-attachments/assets/4ad08bb2-d23b-4422-9d9e-4f41758598e0" />
+
+
+
+
+
+
+
+
+
+
+
+

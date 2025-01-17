@@ -85,14 +85,23 @@
 - works like IF-ELSE statements
 - conditions are called ```cases```
 - we can add a conditional statements to a WHERE clause, Aggragate functions, etc.
+- there can be multiple conditions in a single ```CASE ; END```
+- the returned value of the condition will be a name of a new result column
 Statement syntax:
+  - start with ```CASE```
+  - then the conditions start with ```WHEN``` - it means IF
+  - the condition is based on columns
+  - ```THEN``` tells what will return if the condition is TRUE
+  - ```ELSE``` is basically a DEFAULT return, if none of the conditions are med
+  - end with ```END```  
 ```
 CASE
    WHEN -> condition -> THEN
 END
 ```
 
-<img width="754" alt="image" src="https://github.com/user-attachments/assets/4ad08bb2-d23b-4422-9d9e-4f41758598e0" />
+<img width="705" alt="image" src="https://github.com/user-attachments/assets/72270a44-2af9-4ff6-b557-90d25c00d3ae" />
+
 
 
 

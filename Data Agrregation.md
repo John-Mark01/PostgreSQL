@@ -1,4 +1,4 @@
-<img width="1346" alt="image" src="https://github.com/user-attachments/assets/24735024-e690-483b-87d8-8eccd0ad9d15" /># Data Agrregation
+<img width="646" alt="image" src="https://github.com/user-attachments/assets/2ed10ab8-2fd9-4d14-b1ce-6c4f5b59f207" /><img width="1346" alt="image" src="https://github.com/user-attachments/assets/24735024-e690-483b-87d8-8eccd0ad9d15" /># Data Agrregation
 - combining multiple elements with a common property
 - its done in SQL by ```GROUPING```
 - can be used only with ```SELECT``` 
@@ -74,8 +74,11 @@
 - a predicate while grouping.
 - cannot be be used without aggregating, and without grouping
 - ```HAVING ``` clause is used to filter data based on aggregate values 
-- it will filter the data after everything is ran
+- it will filter the data after everything is ran, or after the aggregation is done.
+- ```HAVING ``` will be another level of conditioning.
+####  ```WHERE``` will fiter records that will be aggregated and grouped, while ```HAVING``` filters what the result of query will be. What the user will see. It's not part of the calculations.
 
+#### ```WHERE``` is the filter logic, ```HAVING``` is the presentation logic
 
 
 ## Conditional Statements

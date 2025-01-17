@@ -84,7 +84,7 @@
 ## Conditional Statements
 - works like IF-ELSE statements
 - conditions are called ```cases```
-- we can add a conditional statements to a WHERE clause, Aggragate functions, etc.
+- we can add a conditional statements to: SELECT, HAVING, WHERE, Aggragate functions.
 - there can be multiple conditions in a single ```CASE ; END```
 - the returned value of the condition will be a name of a new result column
 Statement syntax:
@@ -97,10 +97,14 @@ Statement syntax:
 ```
 CASE
    WHEN -> condition -> THEN
+   ELSE
 END
 ```
 
+<img width="1321" alt="image" src="https://github.com/user-attachments/assets/c7a373aa-cf5a-4926-b6b3-934a8ccf682c" />
+
 <img width="705" alt="image" src="https://github.com/user-attachments/assets/72270a44-2af9-4ff6-b557-90d25c00d3ae" />
+
 
 
 

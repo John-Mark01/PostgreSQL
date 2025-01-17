@@ -1,6 +1,7 @@
 # Data Agrregation
 - combining multiple elements with a common property
 - its done in SQL by ```GROUPING```
+- can be used only with ```SELECT``` 
 
 
 
@@ -26,6 +27,7 @@
 - they are used after grouping.
 - USED TO OPERATE OVEr ONE or MORE groups performing data analysis
 - they can be used on all groups we create
+- if we SELECT only a a agrregate function with a column, we don't need to group the query.
 
 <img width="1321" alt="image" src="https://github.com/user-attachments/assets/8270da78-33ed-4abf-8e6c-5b220fdb9879" />
 
@@ -40,7 +42,8 @@
 
 <img width="656" alt="image" src="https://github.com/user-attachments/assets/0647cefa-9e1d-4f39-b7e0-c0cfa00be724" />
 
-
+### ```COUNT```
+- sums the values in a column bsed on grouping criteria.
 
 
 ## Hanving

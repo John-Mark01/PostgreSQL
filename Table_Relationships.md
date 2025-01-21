@@ -24,10 +24,6 @@
 ## Table Design && Rules
 
 
-
-
-
-
 ### ```Rules```
  ``` 1. Non repeating data```
  
@@ -58,11 +54,19 @@
 
     
 ### Relation Types
-  1. one to one
-  2. one to many 
-  3. many to many
+  1. one to one - country / capital
+  2. one to many - mountain / peaks
+  3. many to many - strudent / courses
 
 ## How to use Table Relations
+
+- OWNER/Parent has a ```PRIMARY KEY```
+  
+<img width="1348" alt="image" src="https://github.com/user-attachments/assets/0163812b-6276-473a-bfb2-f39cde0510c4" />
+
+- OWNED/Child has a ```FOREIGN KEY```
+
+<img width="1397" alt="image" src="https://github.com/user-attachments/assets/646eb7a2-0bef-4986-8970-4f08107972d7" />
 
 
 ## JOINs

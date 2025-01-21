@@ -56,12 +56,13 @@
 
     
 ### Relation Types
-  1. one to one - country / capital
-  2. one to many - mountain / peaks
+ ``` 1. one to one``` - country / capital
+  ```2. one to many``` - mountain / peaks
     - we operate with 2 tables - an Parent, and a Child
+     
   <img width="1310" alt="image" src="https://github.com/user-attachments/assets/ef63a5ae-908d-4adf-8fa2-696c68d722e4" />
 
-  3. many to many - strudent / courses
+ ```3. many to many ``` - strudent / courses
     - it is basically 2 one-to-many relations
     - we operate with 3 tables - two tables are childs, and the middle(junction) table is the Owner
     - also the middle(junction) table's fk.id's will have unique records.

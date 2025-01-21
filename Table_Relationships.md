@@ -93,6 +93,12 @@
 
 
 ## JOINs
+  - they are used with tables with relations
+  - with JOINs we can get data from two table at the same time
+    
+  ```SYNTAX```
+  
+   <img width="1519" alt="image" src="https://github.com/user-attachments/assets/06aac3f2-86e5-4b2c-9400-38784dae482c" />
 
 
 ## Cascade Operations

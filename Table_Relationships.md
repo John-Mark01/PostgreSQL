@@ -57,6 +57,9 @@
     
 ### Relation Types
  ``` 1. one to one``` - country / capital
+
+ <img width="1646" alt="image" src="https://github.com/user-attachments/assets/3588abe8-0fbd-426d-8d26-afe878787559" />
+
  
   ```2. one to many``` - mountain / peaks
     - we operate with 2 tables - an Parent, and a Child
@@ -69,6 +72,11 @@
     - also the middle(junction) table's fk.id's will have unique records.
     - each Parent can have multiple Childs, and each Child can have multiple Parents. The specified number of parents, and childs are stored in the junction table.
     - the juction table contains only the fk's of the other two tables
+
+<img width="1619" alt="image" src="https://github.com/user-attachments/assets/b546a0cd-ae73-4705-bffd-853af21f37e4" />
+
+<img width="1543" alt="image" src="https://github.com/user-attachments/assets/ac84947a-5168-489d-b0c1-5af2c45d327c" />
+
 
 ## How to use Table Relations
 

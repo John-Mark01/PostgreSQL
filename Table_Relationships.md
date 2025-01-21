@@ -102,6 +102,10 @@
 
 
 ## Cascade Operations
+  - it is a operation that allows changes made on an entity, related to another entity, to affect both entities.
+If the Parent changes, the child changes. If the parent is deleted, the child is deleted as well.
+  - we add the CONSTRAINT to the PARENT table called ```CASCADE```
 
+<img width="556" alt="image" src="https://github.com/user-attachments/assets/38f9df50-968f-4fc7-b05c-0e46976c304a" />
 
 ## E/R Diagrams

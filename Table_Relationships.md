@@ -49,8 +49,10 @@
       - the FOREIGN key is the OWNED/Child entity
 
   ```SYNTAX```
-  - ```fk_country_id``` - the owned/child table's record pointing to the 
+  - ```fk_country_id``` - the owned/child table's record pointing to the
+    - (fk)foreignKey_(name that points to the owner table)
   - ```t.country_id``` - the owner/parent pointing to the refferenced table
+    - (t)this_(name of the child table)
 
     
 ### Relation Types
@@ -67,6 +69,9 @@
 - OWNED/Child has a ```FOREIGN KEY```
 
 <img width="1397" alt="image" src="https://github.com/user-attachments/assets/646eb7a2-0bef-4986-8970-4f08107972d7" />
+
+<img width="1158" alt="image" src="https://github.com/user-attachments/assets/a30d6c73-dc59-4afb-8f49-d7ba661aca23" />
+
 
 
 ## JOINs

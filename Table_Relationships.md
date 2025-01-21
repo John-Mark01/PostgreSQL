@@ -49,12 +49,12 @@
 ## What are table relations
   - theese are the connections between two or more tables.
   - relations are based on PRIMARY KEY and FOREIGN KEY
-      - the PRIMARY key is the OWNER entity
-      - the FOREIGN key is the OWNED entity
+      - the PRIMARY key is the OWNER/Parent entity
+      - the FOREIGN key is the OWNED/Child entity
 
   ```SYNTAX```
-  - ```fk_country_id``` - the owned table's record pointing to the 
-  - ```t.country_id``` - the owner pointing to the refferenced table
+  - ```fk_country_id``` - the owned/child table's record pointing to the 
+  - ```t.country_id``` - the owner/parent pointing to the refferenced table
 
     
 ### Relation Types
